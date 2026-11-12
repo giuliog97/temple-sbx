@@ -1,0 +1,33 @@
+# Binaries
+/temple-sbx
+*.exe
+*.so
+*.dylib
+*.a
+*.o
+
+# Release / build output
+/bin/
+/dist/
+/build/
+*.tar.gz
+*.zip
+
+# Go
+*.test
+*.out
+coverage.*
+go.work
+go.work.sum
+
+# Guest root filesystems / disk images
+/rootfs*/
+*.img
+*.raw
+*.qcow2
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store

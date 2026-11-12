@@ -1,0 +1,4 @@
+[submodule "deps/libkrun"]
+	path = deps/libkrun
+	url = https://github.com/libkrun/libkrun.git
+	shallow = true
